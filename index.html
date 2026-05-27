@@ -32,6 +32,8 @@
                     <li><a href="#about" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">About</a></li>
                     <li><a href="#projects" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Projects</a></li>
                     <li><a href="#experience" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Experience</a></li>
+                    <li><a href="#certifications" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Certifications</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Contact</a></li>
                 </ul>
                 <button id="theme-toggle" class="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:ring-2 ring-blue-400 dark:ring-cyan-400 transition-all outline-none">
                     <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 11-2 0v-1a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path></svg>
@@ -42,7 +44,7 @@
     </header>
 
     <main class="pt-32">
-        <section id="home" class="pb-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+        <section id="home" class="scroll-mt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
             <div class="shrink-0 relative">
                 <div class="absolute -top-4 -right-4 z-30 bg-white dark:bg-slate-900 border border-slate-200 dark:border-cyan-500/50 px-4 py-2 rounded-full shadow-xl">
                     <div class="flex items-center gap-2">
@@ -70,7 +72,7 @@
                     Aspiring <span class="text-slate-900 dark:text-white font-semibold">Full-Stack Developer</span> specializing in Front-End Engineering. Bridging the gap between intuitive UI/UX design and robust, scalable logic.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="resume.pdf" download class="bg-blue-600 dark:bg-cyan-500 dark:text-slate-950 px-8 py-4 rounded-xl font-bold hover:shadow-lg transition-all">
+                    <a href="resume.pdf" target="_blank" download class="bg-blue-600 dark:bg-cyan-500 dark:text-slate-950 px-8 py-4 rounded-xl font-bold hover:shadow-lg transition-all">
                         Download CV
                     </a>
                     <a href="#projects" class="border border-slate-300 dark:border-slate-700 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
@@ -87,18 +89,19 @@
             <div class="grid md:grid-cols-2 gap-12">
                 <div class="space-y-6 text-slate-600 dark:text-slate-400 leading-relaxed">
                     <p>I am an adaptable Front-End Developer and a fresh Information Technology graduate with a strong focus on creating seamless, responsive user experiences. I specialize in transforming complex wireframes into functional, high-performance web applications.</p>
-                    <p>While my expertise lies in the Front-End, I leverage modern frameworks like <strong>Vue.js</strong> and <strong>Laravel</strong> to build complete digital solutions. My background also extends to <strong>C# and Unity</strong>, where I developed interactive 3D environments.</p>
+                    <p>I focus heavily on building rich, interactive user interfaces with <strong>Vue.js</strong>, while currently exploring <strong>Laravel</strong> to strengthen my architectural knowledge. This allows me to bridge the gap between creative front-end design and strong data management.</p>
+
                 </div>
                 <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
                     <h3 class="font-bold mb-6 text-slate-900 dark:text-white flex items-center gap-2">
                         <span class="w-2 h-2 bg-blue-600 dark:bg-cyan-400 rounded-full"></span> Tech Stack
                     </h3>
                     <div class="space-y-4 text-sm font-mono">
-                        <div><span class="text-blue-600 dark:text-cyan-400">Languages:</span> JS (ES6+), PHP, C#, SQL, HTML5, CSS3</div>
-                        <div><span class="text-blue-600 dark:text-cyan-400">Front-End:</span> Vue.js, Tailwind CSS, Responsive Design</div>
-                        <div><span class="text-blue-600 dark:text-cyan-400">Back-End:</span> Laravel, Node.js (Env), MySQL</div>
-                        <div><span class="text-blue-600 dark:text-cyan-400">Tools:</span> Git, GitHub, NPM, Unity, Figma, VS Code</div>
-                        <div><span class="text-blue-600 dark:text-cyan-400">AI Efficiency:</span> Gemini, ChatGPT, Claude AI</div>
+                        <div><span class="text-blue-600 dark:text-cyan-400">Languages:</span> HTML5, CSS3, JS (ES6+)</div>
+                        <div><span class="text-blue-600 dark:text-cyan-400">Front-End:</span> Vue.js, Tailwind CSS </div>
+                        <div><span class="text-blue-600 dark:text-cyan-400">Back-End:</span> Laravel, Node.js (Env), MySQL, PHP</div>
+                        <div><span class="text-blue-600 dark:text-cyan-400">Tools:</span> Git, GitHub, Figma, VS Code</div>
+                        <!-- <div><span class="text-blue-600 dark:text-cyan-400">AI Efficiency:</span> Gemini, ChatGPT, Claude AI</div> -->
                     </div>
                 </div>
             </div>
@@ -177,21 +180,22 @@
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm cursor-pointer" onclick="openLightbox('images/cert-upitc.jpg')">
-                    <img src="images/cert-upitc.jpg" alt="UP ITC Recognition" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="images/cert-upitc.jpg" alt="UP ITC Recognition" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
                     <div class="p-4"><p class="font-bold text-sm">UP ITC Internship Recognition</p></div>
                 </div>
                 <div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm cursor-pointer" onclick="openLightbox('images/cert-femenova.jpg')">
-                    <img src="images/cert-femenova.jpg" alt="FemeNova Certificate" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="images/cert-femenova.png" alt="FemeNova Certificate" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
                     <div class="p-4"><p class="font-bold text-sm">FemeNova Project Certificate</p></div>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="py-20 px-6 max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6 italic font-mono">&lt;GetInTouch /&gt;</h2>
+            <h2 class="text-3xl font-bold mb-6 italic font-mono">&lt;Get In Touch /&gt;</h2>
             <div class="flex justify-center gap-8 mb-10 text-slate-500">
-                <a href="https://linkedin.com/in/yourusername" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">LinkedIn</a>
-                <a href="https://facebook.com/yourusername" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Facebook</a>
+                <a href="https://www.linkedin.com/in/carry-romero-24287a241/" target="_blank" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">LinkedIn</a>
+                <a href="https://facebook.com/carry.romero" target="_blank" hover:text-blue-600 dark:hover:text-cyan-400 transition">Facebook</a>
+                <a href="https://github.com/Malikenix" target="_blank" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Github</a>
             </div>
             <form id="contact-form" class="space-y-4 text-left">
                 <input type="text" name="user_name" placeholder="Name" class="w-full p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 outline-none focus:ring-2 ring-blue-500 transition-all" required>
@@ -207,7 +211,7 @@
     </div>
 
     <footer class="py-10 text-center text-xs text-slate-500 font-mono">
-        &copy; 2026 Carry Romero. Built with Vue.js logic & Tailwind CSS.
+        &copy; 2026 Carry Romero. Built with HTML5, Tailwind CSS & Vanilla Javascript.
     </footer>
 
     <script src="script.js" defer></script>
