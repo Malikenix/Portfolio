@@ -8,7 +8,6 @@
     <script>
         tailwind.config = { 
             darkMode: 'class',
-           
         }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -31,8 +30,7 @@
                     <li><a href="#home" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Home</a></li>
                     <li><a href="#about" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">About</a></li>
                     <li><a href="#projects" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Projects</a></li>
-                    <li><a href="#experience" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Experience</a></li>
-                    <li><a href="#certifications" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Certifications</a></li>
+                    <li><a href="#experience" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Experience & Certs</a></li>
                     <li><a href="#contact" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Contact</a></li>
                 </ul>
                 <button id="theme-toggle" class="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:ring-2 ring-blue-400 dark:ring-cyan-400 transition-all outline-none">
@@ -90,7 +88,6 @@
                 <div class="space-y-6 text-slate-600 dark:text-slate-400 leading-relaxed">
                     <p>I am an adaptable Front-End Developer and a fresh Information Technology graduate with a strong focus on creating seamless, responsive user experiences. I specialize in transforming complex wireframes into functional, high-performance web applications.</p>
                     <p>I focus heavily on building rich, interactive user interfaces with <strong>Vue.js</strong>, while currently exploring <strong>Laravel</strong> to strengthen my architectural knowledge. This allows me to bridge the gap between creative front-end design and strong data management.</p>
-
                 </div>
                 <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
                     <h3 class="font-bold mb-6 text-slate-900 dark:text-white flex items-center gap-2">
@@ -101,7 +98,6 @@
                         <div><span class="text-blue-600 dark:text-cyan-400">Front-End:</span> Vue.js, Tailwind CSS </div>
                         <div><span class="text-blue-600 dark:text-cyan-400">Back-End:</span> Laravel, Node.js (Env), MySQL, PHP</div>
                         <div><span class="text-blue-600 dark:text-cyan-400">Tools:</span> Git, GitHub, Figma, VS Code</div>
-                        <!-- <div><span class="text-blue-600 dark:text-cyan-400">AI Efficiency:</span> Gemini, ChatGPT, Claude AI</div> -->
                     </div>
                 </div>
             </div>
@@ -136,65 +132,69 @@
                     <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-2">
                         <li>• Designed high-fidelity wireframes for a service marketplace.</li>
                         <li>• Ensured pixel-perfect alignment in front-end implementation.</li>
-                        <li>• Mapped functional requirements for the project MVP.</li>
+                        <li>• Mapped functional requirements for the project.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold mb-12 flex items-center gap-4">
-                <span class="text-blue-600 dark:text-cyan-400 font-mono text-xl">03.</span> Experience
-            </h2>
-            <div class="space-y-8 border-l-2 border-slate-200 dark:border-slate-800 ml-4 pl-8">
-                <div class="relative">
-                    <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-blue-600 dark:bg-cyan-500"></span>
-                    <h3 class="font-bold">BSIT Graduate</h3>
-                    <p class="text-slate-500 dark:text-slate-400">Specializing in Full-Stack Web Development</p>
-                    <p class="text-xs font-mono mt-1 opacity-60">2026</p>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 py-12 px-6">
+            
+            <section id="experience" class="md:col-span-2 scroll-mt-32">
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-4">
+                    <span class="text-blue-600 dark:text-cyan-400 font-mono text-xl">03.</span> Experience
+                </h2>
+                <div class="space-y-6 border-l-2 border-slate-200 dark:border-slate-800 ml-4 pl-8">
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-blue-600 dark:bg-cyan-500"></span>
+                        <h3 class="font-bold text-base">BSIT Graduate</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Specializing in Full-Stack Web Development</p>
+                        <p class="text-xs font-mono mt-1 opacity-60">2026</p>
+                    </div>
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+                        <h3 class="font-bold text-base">UP ITC Intern (Front-End Developer)</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Developed production-ready modules for enterprise systems.</p>
+                        <p class="text-xs font-mono mt-1 opacity-60">2025</p>
+                    </div>
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+                        <h3 class="font-bold text-base">FemeNova (Front-End Developer & Researcher)</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Gathered system data and built functional front-end components.</p>
+                        <p class="text-xs font-mono mt-1 opacity-60">2025</p>
+                    </div>
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+                        <h3 class="font-bold text-base italic">First "Hello World!"</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Sparked a passion for building digital solutions.</p>
+                        <p class="text-xs font-mono mt-1 opacity-60">2022</p>
+                    </div>
                 </div>
-                <div class="relative">
-                    <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></span>
-                    <h3 class="font-bold">UP ITC Intern (Front-End Developer)</h3>
-                    <p class="text-slate-500 dark:text-slate-400">Developed production-ready modules for enterprise systems.</p>
-                    <p class="text-xs font-mono mt-1 opacity-60">2025</p>
-                </div>
-                <div class="relative">
-                    <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></span>
-                    <h3 class="font-bold">FemeNova (Front-End Developer & Researcher)</h3>
-                    <p class="text-slate-500 dark:text-slate-400">Gathered system data and built functional front-end components.</p>
-                    <p class="text-xs font-mono mt-1 opacity-60">2025</p>
-                </div>
-                <div class="relative">
-                    <span class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></span>
-                    <h3 class="font-bold italic">First "Hello World!"</h3>
-                    <p class="text-slate-500 dark:text-slate-400">Sparked a passion for building digital solutions.</p>
-                    <p class="text-xs font-mono mt-1 opacity-60">2022</p>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="certifications" class="py-20 px-6 max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold mb-12 flex items-center gap-4">
-                <span class="text-blue-600 dark:text-cyan-400 font-mono text-xl">04.</span> Certifications
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm cursor-pointer" onclick="openLightbox('images/cert-upitc.jpg')">
-                    <img src="images/cert-upitc.jpg" alt="UP ITC Recognition" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-                    <div class="p-4"><p class="font-bold text-sm">UP ITC Internship Recognition</p></div>
+            <section id="certifications" class="md:col-span-2 scroll-mt-32">
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-4">
+                    <span class="text-blue-600 dark:text-cyan-400 font-mono text-xl">04.</span> Certifications
+                </h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm cursor-pointer" onclick="openLightbox('images/cert-upitc.jpg')">
+                        <img src="images/cert-upitc.jpg" alt="UP ITC Recognition" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="p-2"><p class="font-bold text-xs text-center">UP ITC Internship Recognition</p></div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm cursor-pointer" onclick="openLightbox('images/cert-femenova.png')">
+                        <img src="images/cert-femenova.png" alt="FemeNova Certificate" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="p-2"><p class="font-bold text-xs text-center">FemeNova Project Certificate</p></div>
+                    </div>
                 </div>
-                <div class="group relative overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm cursor-pointer" onclick="openLightbox('images/cert-femenova.jpg')">
-                    <img src="images/cert-femenova.png" alt="FemeNova Certificate" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-                    <div class="p-4"><p class="font-bold text-sm">FemeNova Project Certificate</p></div>
-                </div>
-            </div>
-        </section>
+            </section>
+
+        </div>
 
         <section id="contact" class="py-20 px-6 max-w-2xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-6 italic font-mono">&lt;Get In Touch /&gt;</h2>
             <div class="flex justify-center gap-8 mb-10 text-slate-500">
                 <a href="https://www.linkedin.com/in/carry-romero-24287a241/" target="_blank" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">LinkedIn</a>
-                <a href="https://facebook.com/carry.romero" target="_blank" hover:text-blue-600 dark:hover:text-cyan-400 transition">Facebook</a>
+                <a href="https://facebook.com/carry.romero" target="_blank" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Facebook</a>
                 <a href="https://github.com/Malikenix" target="_blank" class="hover:text-blue-600 dark:hover:text-cyan-400 transition">Github</a>
             </div>
             <form id="contact-form" class="space-y-4 text-left">
