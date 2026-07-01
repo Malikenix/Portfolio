@@ -50,15 +50,15 @@ function closeLightbox() {
 // EmailJS Initialization
 (function() {
     // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
-    emailjs.init("YOUR_PUBLIC_KEY");
+    emailjs.init("GY2krpdDvgNlENp1a");
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
     // Replace these placeholders with your actual IDs from EmailJS dashboard
-    const serviceID = 'YOUR_SERVICE_ID';
-    const templateID = 'YOUR_TEMPLATE_ID';
+    const serviceID = 'service_n5i5r0o';
+    const templateID = 'template_er02ag5';
 
     emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
@@ -68,3 +68,31 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             alert('Failed to send message. Error: ' + JSON.stringify(error));
         });
 });
+
+
+function copyAndMail(event, anchorElement) {
+    // 1. Copy the email text seamlessly behind the scenes
+    navigator.clipboard.writeText('carryromero2@gmail.com');
+
+    // 2. Identify target elements inside the clicked link
+    const copyIcon = anchorElement.querySelector('.copy-icon');
+    const checkIcon = anchorElement.querySelector('.check-icon');
+
+    // 3. Transform icon to checkmark state
+    if (copyIcon && checkIcon) {
+        copyIcon.classList.add('hidden');
+        checkIcon.classList.remove('hidden');
+
+        // 4. Revert back to original layout after 2 seconds
+        setTimeout(() => {
+            copyIcon.classList.remove('hidden');
+            checkIcon.classList.add('hidden');
+        }, 2000);
+    }
+    
+    // Note: The browser will naturally proceed to open the mailto link 
+    // simultaneously without interrupting the clipboard function execution loop.
+}
+
+
+// Service ID:  service_n5i5r0o
